@@ -53,6 +53,11 @@ make compat         # run compatibility CI matrix locally
    ```
 8. **Open a pull request** against `main` from your branch.
 
+   Pull requests are automatically reviewed by CodeRabbit before maintainer
+   review. Address its actionable findings, then push incremental changes —
+   CodeRabbit re-reviews each push. CI and the maintainer review remain the
+   final gates.
+
 ### Plugin Bundle Workflow
 
 To pack and verify a plugin bundle locally:
